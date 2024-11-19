@@ -15,7 +15,7 @@ const StickyIcons: React.FC = () => {
   const isLargeScreen = useMediaQuery('(min-width: 768px)');
 
   const socialLinks: IconLinkProps[] = [
-    { icon: FaGithub, href: 'https://github.com/brightsmile225' },
+    { icon: FaGithub, href: 'https://github.com/EmersonCosta0915' },
   ];
 
   useEffect(() => {

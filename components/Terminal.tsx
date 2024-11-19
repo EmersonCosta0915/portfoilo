@@ -18,13 +18,11 @@ const Terminal = () => {
   const codeLines: CodeLines = useMemo(() => ({
     python: [
       'print("Hello, World! 👋 I\'m Emerson Costa")',
-      'print("Based in Brazil ")',
-      'print("Turning Data into Insights: 2+ years experience in Python, SQL & Data Visualization, learning Web Development and Machine Learning")'
+      'print("Based in Brazil ")'
     ],
     javascript: [
       'console.log("Hello, World! 👋 I\'m Emerson Costa");',
-      'console.log("Based in Brazil ");',
-      'console.log("Turning Data into Insights: 2+ years experience in Python, SQL & Data Visualization, learning Web Development and Machine Learning");'
+      'console.log("Based in Brazil ");'
     ]
   }), []);
 
@@ -121,7 +119,7 @@ const Terminal = () => {
           transition={{ delay: 1, duration: 0.4 }}
         >
           <RiTerminalBoxFill className="text-primary mr-2" />
-          <span className="text-primary">brightsmile@portfolio:~$</span>
+          <span className="text-primary">EmersonCosta@portfolio:~$</span>
           <span className="text-secondary ml-2">&gt;&gt;</span>
           <span className='text-muted-foreground'>{activeTab}</span>
         </motion.div>
