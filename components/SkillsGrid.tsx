@@ -7,7 +7,7 @@ const SkillsGrid = () => {
   const skills = useMemo(() => [
     { icon: <FaPython />, name: 'Python' },
     { icon: <FaDatabase />, name: 'SQL' },
-    { icon: <FaChartBar />, name: 'Power BI' },
+    { icon: <FaChartBar />, name: 'ASP.NET' },
     { icon: <FaCode />, name: 'Data Viz' },
     { icon: <FaJs />, name: 'JavaScript' },
     { icon: <FaReact />, name: 'React' },
