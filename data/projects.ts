@@ -23,7 +23,7 @@ export const projects: Project[] = [
   description: "A single-page application portfolio website built using Next.js, TailwindCSS, and shadcn/ui components.",
   icon: FaReact,
   technologies: ["Next.js", "React", "TypeScript", "TailwindCSS", "shadcn/ui"],
-  githubLink: "https://github.com/brightsmile225/portfolio",
+  githubLink: "https://github.com/EmersonCosta0915/portfolio",
   skills: [
     {name: "Frontend Development"},
     { name: "UI/UX Design"},
@@ -33,11 +33,11 @@ export const projects: Project[] = [
   },
   {
     id: 2,
-  title: " Job Search Automation",
-  description: "A comprehensive project that automates LinkedIn job searches, scrapes job details, analyzes job descriptions using GPT, and generates tailored resumes and cover letters.",
-  icon: FaLinkedin,
-  technologies: ["Python", "Selenium", "BeautifulSoup", "pandas", "GPT", "DocX"],
-  githubLink: "https://github.com/brightsmile/resume",
+  title: "Practical.CleanArchitecture",
+  description: "Full-stack .Net 8 Clean Architecture (Microservices, Modular Monolith, Monolith), Blazor, Angular 18, React 18, Vue 3, BFF with YARP, Domain-Driven Design, CQRS, SOLID, Asp.Net Core Identity Custom Storage, OpenID Connect, Entity Framework Core, OpenTelemetry, SignalR, Hosted Services, Health Checks, Rate Limiting, Cloud Services (Azure, AWS, GCP).",
+  icon: FaReact,
+  technologies: ["DotNet", "Blazor", "Angular", "React", "Docker", "Vue"],
+  githubLink: "https://github.com/EmersonCosta0915/Practical.CleanArchitecture",
   skills: [
     { name: "Web Scraping"},
     { name: "Data Analysis"},
@@ -48,11 +48,11 @@ export const projects: Project[] = [
   },
   {
     id: 2,
-  title: " Two-Way Sync",
-  description: "A Python-based application that enables two-way synchronization between TickTick tasks and Notion databases, allowing seamless task management across both platforms.",
+  title: "eShopOnAbp",
+  description: "Reference microservice solution built with the ABP Framework and .NET, runs on Kubernetes with Helm configuration, includes API Gateways, Angular and ASP.NET Core MVC applications, PostgreSQL and MongoDB databases.",
   icon: FaSyncAlt,
-  technologies: ["Python", "TickTick API", "Notion API", "aiohttp", "asyncio"],
-  githubLink: "https://github.com/brightsmile/",
+  technologies: ["ASP.NET", "Angular", "API", "PostgreSQL", "MongoDB"],
+  githubLink: "https://github.com/EmersonCosta0915/eShopOnAbp",
   skills: [
     { name: "API Integration"},
     { name: "Asynchronous Programming"},
